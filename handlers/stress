@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -eufo pipefail
+trap 'echo "$0: line ${LINENO}: exiting because of error";exit 1' ERR
+
+echo "stress"
+
